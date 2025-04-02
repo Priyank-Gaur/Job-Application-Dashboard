@@ -120,7 +120,7 @@ const Footer = () => {
             <Link href="https://linkedin.com" className="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center hover:bg-gray-700 transition-colors">
               <Image src="/social/linkedin.svg" alt="LinkedIn" width={20} height={20} />
             </Link>
-            <Link href="https://twitter.com" className="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center hover:bg-gray-700 transition-colors">
+            <Link href="https://twitter.com" className="brightness-0 invert">
               <Image src="/social/twitter.svg" alt="Twitter" width={20} height={20} />
             </Link>
           </div>

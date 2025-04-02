@@ -57,11 +57,11 @@ const CategorySection = () => {
             className="p-6 bg-white rounded-lg border border-gray-100 hover:border-blue-500 transition-colors group"
           >
             <div className={`w-12 h-12 rounded-lg flex items-center justify-center mb-4 ${
-              category.name === 'Marketing' ? 'bg-blue-600' : 'bg-gray-50 group-hover:bg-blue-50'
+              category.name === 'Marketing' ? 'bg-gray-50 group-hover:bg-blue-50bg-blue-600' : 'bg-gray-50 group-hover:bg-blue-50'
             }`}>
               <category.icon 
                 className={`w-6 h-6 ${
-                  category.name === 'Marketing' ? 'text-white' : 'text-blue-600'
+                  category.name === 'Marketing' ? 'text-blue-600' : 'text-blue-600'
                 }`} 
               />
             </div>
